@@ -1,0 +1,30 @@
+span {
+    font-size: 30px;
+    color:red;
+    cursor:pointer;
+     }
+span:hover{
+    font-size: 50px;
+        color:blue;
+}
+.soon img{ height: 80px;
+  width: 80px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}.soon img:hover{
+    width: 400px;
+    height: 400px;
+}
+#i1{
+    color: aqua
+}
+#i2{
+    background-color: aquamarine
+}
+.c1{
+    color:brown
+}
