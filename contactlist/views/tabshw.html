@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Tabs - Default functionality</title>
+    <link rel="stylesheet" href=/node_modules/bootstrap/dist/css/bootstrap.css>
+    <link rel="stylesheet" href="/node_modules/jqueryui/jquery-ui.css">  
+    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/node_modules/jqueryui/jquery-ui.js"></script>
+
+</head>
+<body>
+ 
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Home</a></li>
+    <li><a href="#tabs-2">Result</a></li>
+    <li><a href="#tabs-3">Aenean lacinia</a></li>
+  </ul>
+    
+  <div id="tabs-1">
+    <form class="form-group">
+      <div class="row">   
+            <div class="col-md-2">
+              First name :
+            </div> 
+            <div class="col-md-3">
+            <input type="text" class="form-control" name="firstname" id="firstName" required>
+            </div>
+            </div>
+          
+            <div class="row">
+                <div class="col-md-2">
+                Last name :
+            </div>
+            <div class="col-md-3">    
+            <input type="text" class="form-control" name="lastname" id="lastName" required >
+            </div>
+            </div>
+                
+            <div class ="row">
+                <div class="col-md-2">
+                 Phone:
+                </div>
+           <div class ="col-md-3">
+            <input type="text" class="form-control" name="phone" id="phone" required>
+            </div>
+             </div>
+          
+          <div class="row">
+          <div class="col-md-2">
+              Email:
+              </div>
+              <div class="col-md-3">
+              <input type="email" class="form-control" name="email" id="email">
+              </div>
+             </div>
+            
+            <button class="btn btn-success" id="add">
+            Submit
+            </button> 
+          </form>
+    </div>
+  
+  <div id="tabs-2">
+    <table  class="table"  id="resultTbl">
+            <caption>Results of the new entries</caption>
+        <thead>  
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+       
+            
+        </tbody>
+        </table> 
+  </div>
+  <div id="tabs-3">
+    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+    <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+  </div>
+</div>
+    
+    <script type="text/javascript" src="/scripts/tabs.js"></script>
+ <script type="text/javascript" src=/scripts/person.js></script>
+        <script type="text/javascript" src="/scripts/event.js"></script>
+        <script type="text/javascript" src="/scripts/append.js"></script>
+</body>
+</html>
