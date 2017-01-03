@@ -1,0 +1,124 @@
+<!doctype Html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  <title>jQuery UI Accordion </title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    
+    
+    <link rel="stylesheet" href="/node_modules/jqueryui/jquery-ui.css">  
+    <link rel="stylesheet" href=/node_modules/bootstrap/dist/css/bootstrap.css>
+    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="/node_modules/jqueryui/jquery-ui.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/scripts/tabs.js"></script>
+
+    </head>
+<body>
+    <div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <form class="form-group">
+      <div class="row">   
+            <div class="col-md-2">
+              First name :
+            </div> 
+            <div class="col-md-3">
+            <input type="text" class="form-control" name="firstname" id="firstName" required>
+            </div>
+            </div>
+          
+            <div class="row">
+                <div class="col-md-2">
+                Last name :
+            </div>
+            <div class="col-md-3">    
+            <input type="text" class="form-control" name="lastname" id="lastName" required >
+            </div>
+            </div>
+                
+            <div class ="row">
+                <div class="col-md-2">
+                 Phone:
+                </div>
+           <div class ="col-md-3">
+            <input type="text" class="form-control" name="phone" id="phone" required>
+            </div>
+             </div>
+          
+          <div class="row">
+          <div class="col-md-2">
+              Email:
+              </div>
+              <div class="col-md-3">
+              <input type="email" class="form-control" name="email" id="email">
+              </div>
+             </div>
+            
+            <button class="btn btn-success" id="add">
+            Submit
+            </button> 
+          </form>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <table  class="table"  id="resultTbl">
+            <caption>Results of the new entries</caption>
+        <thead>  
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+       
+            
+        </tbody>
+        </table> 
+        
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <div id="pageone" data-role="main" class="ui-content">
+    <p>Click on the image to enlarge it.</p>
+    <p>Notice that we have added a "back button" in the top right corner.</p>
+    <a href="#myPopup" data-rel="popup" data-position-to="window">
+    <img src="maxresdefault.jpg" alt="Skaret View" style="width:200px;"></a>
+
+    <div data-role="popup" id="myPopup">
+      <p>This is my picture!</p> 
+      <a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="maxresdefault.jpg" style="width:800px;height:400px;" alt="Skaret View">
+    </div>
+  </div>
+    
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+</div>
+<script type="text/javascript" src=/scripts/person.js></script>
+        <script type="text/javascript" src="/scripts/event.js"></script>
+        <script type="text/javascript" src="/scripts/append.js"></script>
+    </body>
+</html>
